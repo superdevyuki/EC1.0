@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <meta charset="UTF-8">
+    <title>RokumaruFarm</title>
+</head>
+<body>
+    
+Please insert your information<br/>
+<form method="post" action="shop_form_check.php">
+    name<br/>
+    <input type="text" name="onamae" style="width:200px"><br/>
+    mail address<br/>
+    <input type="text" name="email" style="width:200px"><br/>
+    postal address<br/>
+    <input type="text" name="postal1" style="width:50px"><br/>
+    <input type="text" name="postal2" style="width:80px"><br/>
+    address<br/>
+    <input type="text" name="address" style="width:500px"><br/>
+    tel<br/>
+    <input type="text" name="tel" style="width:150px"><br/>
+    <br/>
+    <input type="radio" name="chumon" value="chumonkonkai" checked>this time only order<br/>
+    <input type="radio" name="chumon" value="chumontouroku">register membership order<br/>
+    <br/>
+    Please insert below infomation if you register membership<br/>
+    Please insert password.<br/>
+    <input type="password" name="pass" style="width:200px"><br/>
+    Please insert password again.<br/>
+    <input type="password" name="pass2" style="width:200px"><br/>
+    sex<br/>
+    <input type="radio" name="danjo" value="dan" checked>men<br/>
+    <input type="radio" name="danjo" value="jo" checked>women<br/>
+    birthday<br/>
+    <select name ="birth">
+      <option value = "1910">1910</option>;
+      <option value = "1920">1920</option>;
+      <option value = "1930">1930</option>;
+      <option value = "1940">1940</option>;
+      <option value = "1950">1950</option>;
+      <option value = "1960">1960</option>;
+      <option value = "1970">1970</option>;
+      <option value = "1980" selected>1980</option>;
+      <option value = "1990">1990</option>;
+      <option value = "2000">2000</option>;
+      <option value = "2010">2010</option>;
+    </select>
+    <br/>
+    <br/>
+    <input type="button" onclick="history.back()" value="return">
+    <input type="submit" value="OK"><br/>
+</form>
+
+</body>
+</html>
